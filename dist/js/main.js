@@ -1,0 +1,1 @@
+"use strict";function _defineProperty(e,r,n){return r in e?Object.defineProperty(e,r,{value:n,enumerable:!0,configurable:!0,writable:!0}):e[r]=n,e}requirejs.config({paths:{jquery:"../lib/jquery-1.10.1.min",common:"../lib/common",reg:"reg"},shim:{reg:_defineProperty({deps:["jquery"]},"deps",["common"])}}),requirejs(["jquery","common","reg"],function(e){});

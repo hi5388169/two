@@ -1,0 +1,89 @@
+#box {
+    // height: 590px;
+    margin:0 auto;
+    border:1px solid #000;
+}
+#box .logo{
+    margin-left:177px;
+    margin-top:35px;
+    height: 65px;
+}
+#box .logo img{
+    margin-right:16px;
+}
+#box .box{
+    width: 785px;
+    height: 362px;
+    border:5px solid #F7F7F7;
+    position:fixed;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+}
+h1 {
+    height: 32px;
+    font-size: 18px;
+    line-height: 32px;
+    background: #F8F8F8;
+}
+
+#box .box .inf {
+    padding-top: 45px;
+    padding-left: 85px;
+    position: absolute;
+   
+}
+
+#box .box .inf p {
+    height: 20px;
+    margin-left: 80px;
+    font-size:10px;
+    text-indent: 1em;
+    margin-bottom: 7px;
+}
+
+#box .box .inf input {
+    width: 230px;
+    height: 27px;
+    border: 1px solid #CCCCCC;
+}
+
+#box .box .inf span {
+    display: inline-block;
+    width: 67px;
+    height: 24px;
+    border: 1px solid #CCCCCC;
+}
+// #box .box .inf div{
+//     display:none;
+// }
+#box .box .inf .regNew{
+    margin-left:80px;
+    width: 90px;
+    height: 40px;
+    background: #DA4200;
+    cursor:pointer;
+    border-radius:5px;
+    color: #fff;
+    text-align: center;
+    line-height:40px;
+    font-size:12px;
+}
+#box .box .chackReg{
+  margin-right:90px;
+margin-top:110px;}
+#box .box .chackReg p:nth-child(1){
+    height: 26px;
+    font-size: 12px;
+    text-align: center;
+}
+#box .box .chackReg p:nth-child(2){
+    width: 92px;
+    height: 32px;
+    font-size: 16px;
+    text-align: center;
+     line-height:32px;
+    border: 1px solid #E1C169;
+    color:#CC6666;
+    cursor:pointer;
+}

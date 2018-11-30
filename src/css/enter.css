@@ -1,0 +1,104 @@
+#box {
+  width: 985px;
+  height: 545px;
+  padding-top: 35px;
+  margin: 0 auto;
+}
+
+#box .logo {
+  margin-bottom: 30px;
+ 
+}
+
+.enter > img {
+  margin-right: 80px;
+}
+
+.enter > div > p {
+  height: 40px;
+}
+
+.enter > div > p span:nth-child(1) {
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  font-size: 20px;
+}
+
+.enter > div > p span:nth-child(2) {
+  display: inline-block;
+  height: 40px;
+  color: #C0C0C0;
+  font-size: 12px;
+}
+
+.enter > div .rege {
+  width: 388px;
+  height: 320px;
+  background-color: #FAFAFA;
+  padding-top: 35px;
+}
+
+.enter > div .rege input {
+  height: 30px;
+  width: 230px;
+  border: 1px solid #CCCCCC;
+}
+
+.enter > div .rege .regewords span:nth-child(1) {
+  height: 30px;
+  display: inline-block;
+  width: 75px;
+  border: 1px solid #CCCCCC;
+  margin-right: 5px;
+}
+
+.enter > div .rege .regewords span:nth-child(2) {
+  display: inline-block;
+  width: 60px;
+  background: #EEEEEE;
+  height: 27px;
+  font-size: 14px;
+  text-align: center;
+  color: #000000;
+  letter-spacing: 5px;
+  line-height: 27px;
+}
+
+.enter > div .rege .regewords span:nth-child(3) {
+  display: inline-block;
+  font-size: 12px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.enter > div .rege .suc {
+  width: 89px;
+  height: 37px;
+  background: #DA4200;
+  border-radius: 5px;
+  color: #fff;
+  text-align: center;
+  line-height: 37px;
+  margin-left: 75px;
+  margin-bottom: 40px;
+  cursor: pointer;
+}
+
+.enter > div .rege .newReg {
+  font-size: 12px;
+  margin-left: 75px;
+}
+
+.enter > div .rege .newReg span:nth-child(1) {
+  margin-right: 18px;
+}
+
+.enter > div .rege .newReg span:nth-child(2) a {
+  display: inline-block;
+  text-decoration: underline;
+  color: #FF6600;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=enter.css.map */

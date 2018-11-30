@@ -1,0 +1,1262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="../lib/base.css" />
+    <link rel="stylesheet" type="text/css" href="../css/main.css" />
+    <script src="../lib/jquery-1.10.1.min.js" type="text/javascript"></script>
+    <script src="../lib/common.js" type="text/javascript"></script>
+    <script src="../js/index.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <!-- top -->
+    <div id="con">
+        <div class="top con">
+            <div class="top_l"><span class="wlc"></span><span id="login">欢迎登录名鞋库</span>  <span class="symbol"></span></div>
+            <div class="top_r">
+                <ul>
+                    <li>
+                        <span style="width:90px;padding-left:0;" ><a id="free" href="javascript:;" style="color:#FD6706;">免费注册</a></span>
+                    </li>
+                    <li class="li" id="ding">
+                        <span  style="display:inline-block;width:90px"><a href="#">我的名鞋库</a><i class="sj"></i></span>
+                        <ul class="dingdan" id="dingdan">
+                            <li>我的订单</li>
+                            <li>我的积分</li>
+                            <li>优惠券</li>
+                            <li>商品收藏</li>
+                            <li>收货地址</li>
+                            <li>密码管理</li>
+                        </ul>
+                    </li>
+                    <li class="li">
+                        <span id="ErWeiMa" style="padding-bottom:5px"><i class="phone"></i><a  href="#">手机名鞋库</a><i class="jj"></i></span>
+                        <ul class="QRcode" id="QRcode">
+                            <li>
+                                <img src="../img/ew_r2_c2.png" alt="" />
+                                <span>手机名鞋库</span>
+                            </li>
+                            <li>
+                                <img src="../img/ew_r2_c3.png" alt="" /><span>官方微信</span>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <span><a  href="#">收藏名鞋库</a></span>
+                    </li>
+                    <li>
+                        <span><i class="qq"></i><a href="#">名鞋库客服</a></span>
+                    </li>
+                    <li>
+                        <span style="padding: 0;width: 126px;"><i  class="tel"></i><a style="margin-left:25px;"  href="#">400 116 2228</a></span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- logo -->
+    <div id="logo">
+        <div class="logo con">
+            <div class="logo_l">
+                <a href="#">
+                <img src="../img/logo.jpg" />
+            </a>
+            </div>
+            <div class="logo_c">
+                <form action="">
+                    <input style="border-right:0;" class="in1" type="text" value="名鞋" /><input class="in2" type="submit" value="搜索" />
+                </form>
+                <span>热搜:</span>
+                <a href="#">耐克</a>
+                <a href="#">阿迪</a>
+                <a href="#">新品</a>
+                <a href="#">帆布鞋</a>
+                <a href="#">跑步鞋</a>
+                <a href="#">篮球鞋</a>
+                <a href="#">外套</a>
+            </div>
+            <div class="logo_r">
+                <img style="position:absolute; top:60px;right:160px;"src="../img/car.jpg"  alt="" /><a class="mycart" href="javascript:;">购物车<span  class="quantity"> 0 </span>件</a>
+            </div>
+        </div>
+    </div>
+    <!-- dh -->
+    <div id="dh">
+        <div class="dh con">
+            <div class="dh_l" id="dh_l">
+                <div class="allXL" id="allXL">
+                    <h2 id="all" class="all">所有商品分类</h2>
+                    <ul id="spot">
+                        <li class="spot"><i></i><a href="#">运动休闲鞋</a></li>
+                        <li class="spot"><i></i><a href="#">运动休闲服</a></li>
+                        <li class="spot"><i></i><a href="#">跑步</a></li>
+                        <li class="spot"><i></i><a href="#">篮球</a></li>
+                        <li class="spot"><i></i><a href="#">足球</a></li>
+                        <li class="spot"><i></i><a href="#">包包</a></li>
+                        <li class="spot"><i></i><a href="#">户外</a></li>
+                        <li><i></i><a href="#">男鞋</a></li>
+                        <li><i></i><a href="#">童鞋</a></li>
+                        <li><i></i><a href="#">2017新品专区</a></li>
+                        <li><i></i><a href="#">断码清仓专区</a></li>
+                    </ul>
+                    <div id="chice">
+                        <div class="chice">
+                            <div class="dh_l1">
+                                <div>
+                                    <p>
+                                        <span style="float:left;">运动男鞋</span>
+                                        <span style="float:right;">更多</span>
+                                    </p>
+                                    <p>
+                                        <span>休闲鞋</span>
+                                        <span>训练鞋</span>
+                                        <span>帆布鞋</span>
+                                        <span>板鞋</span>
+                                        <span>网球鞋</span>
+                                    </p>
+                                </div>
+                                <div>
+                                    <p>
+                                        <span style="float:left;">运动女鞋</span>
+                                        <span style="float:right;">更多</span>
+                                    </p>
+                                    <p>
+                                        <span>休闲鞋</span>
+                                        <span>训练鞋</span>
+                                        <span>健步鞋</span>
+                                        <span>帆布鞋</span>
+                                        <span>板鞋</span>
+                                    </p>
+                                </div>
+                                <div>
+                                    <p>
+                                        <span style="float:left;">搜索热词</span>
+                                    </p>
+                                    <p>
+                                        <span>17年新品</span>
+                                        <span>小白鞋</span>
+                                        <span>板鞋</span>
+                                        <span>内增高</span>
+                                        <span>复古鞋</span>
+                                    </p>
+                                </div>
+                                <div>
+                                    <p>
+                                        <span style="float:left;">热门系列</span>
+                                    </p>
+                                    <p>
+                                        <span>新百伦574</span>
+                                        <span>air max</span>
+                                        <span>帆布鞋</span>
+                                        <span>三叶草ZX</span>
+                                        <span>ALL star</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="chice">
+                            <div class="dh_l2">
+                                <div>
+                                    <p>
+                                        <span style="float:left;">男子运动服</span>
+                                        <span style="float:right;">更多</span>
+                                    </p>
+                                    <p>
+                                        <span>休闲鞋</span>
+                                        <span>训练鞋</span>
+                                        <span>帆布鞋</span>
+                                        <span>板鞋</span>
+                                        <span>网球鞋</span>
+                                    </p>
+                                </div>
+                                <div>
+                                    <p>
+                                        <span style="float:left;">女子运动服</span>
+                                        <span style="float:right;">更多</span>
+                                    </p>
+                                    <p>
+                                        <span>休闲鞋</span>
+                                        <span>训练鞋</span>
+                                        <span>健步鞋</span>
+                                        <span>帆布鞋</span>
+                                        <span>板鞋</span>
+                                    </p>
+                                </div>
+                                <div>
+                                    <p>
+                                        <span style="float:left;">搜索热词</span>
+                                    </p>
+                                    <p>
+                                        <span>17年新品</span>
+                                        <span>小白鞋</span>
+                                        <span>板鞋</span>
+                                        <span>内增高</span>
+                                        <span>复古鞋</span>
+                                    </p>
+                                </div>
+                                <div>
+                                    <p>
+                                        <span style="float:left;">热门系列</span>
+                                    </p>
+                                    <p>
+                                        <span>新百伦574</span>
+                                        <span>air max</span>
+                                        <span>帆布鞋</span>
+                                        <span>三叶草ZX</span>
+                                        <span>ALL star</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="chice">
+                            <div class="dh_l3">
+                                <div>
+                                    <p>
+                                        <span style="float:left;">男子跑步</span>
+                                        <span style="float:right;">女子跑步</span>
+                                    </p>
+                                    <p>
+                                        <span>休闲鞋</span>
+                                        <span>训练鞋</span>
+                                        <span>帆布鞋</span>
+                                        <span>板鞋</span>
+                                        <span>网球鞋</span>
+                                    </p>
+                                </div>
+                                <div>
+                                    <p>
+                                        <span style="float:left;">运动女鞋</span>
+                                        <span style="float:right;">更多</span>
+                                    </p>
+                                    <p>
+                                        <span>休闲鞋</span>
+                                        <span>训练鞋</span>
+                                        <span>健步鞋</span>
+                                        <span>帆布鞋</span>
+                                        <span>板鞋</span>
+                                    </p>
+                                </div>
+                                <div>
+                                    <p>
+                                        <span style="float:left;">搜索热词</span>
+                                    </p>
+                                    <p>
+                                        <span>17年新品</span>
+                                        <span>小白鞋</span>
+                                        <span>板鞋</span>
+                                        <span>内增高</span>
+                                        <span>复古鞋</span>
+                                    </p>
+                                </div>
+                                <div>
+                                    <p>
+                                        <span style="float:left;">热门系列</span>
+                                    </p>
+                                    <p>
+                                        <span>新百伦574</span>
+                                        <span>air max</span>
+                                        <span>帆布鞋</span>
+                                        <span>三叶草ZX</span>
+                                        <span>ALL star</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="chice">
+                            <div class="dh_l4">
+                                <div>
+                                    <p>
+                                        <span style="float:left;">篮球</span>
+                                        <span style="float:right;">更多</span>
+                                    </p>
+                                    <p>
+                                        <span>休闲鞋</span>
+                                        <span>训练鞋</span>
+                                        <span>帆布鞋</span>
+                                        <span>板鞋</span>
+                                        <span>网球鞋</span>
+                                    </p>
+                                </div>
+                                <div>
+                                    <p>
+                                        <span style="float:left;">明星系列</span>
+                                        <span style="float:right;">更多</span>
+                                    </p>
+                                    <p>
+                                        <span>休闲鞋</span>
+                                        <span>训练鞋</span>
+                                        <span>健步鞋</span>
+                                        <span>帆布鞋</span>
+                                        <span>板鞋</span>
+                                    </p>
+                                </div>
+                                <div>
+                                    <p>
+                                        <span style="float:left;">搜索热词</span>
+                                    </p>
+                                    <p>
+                                        <span>17年新品</span>
+                                        <span>小白鞋</span>
+                                        <span>板鞋</span>
+                                        <span>内增高</span>
+                                        <span>复古鞋</span>
+                                    </p>
+                                </div>
+                                <div>
+                                    <p>
+                                        <span style="float:left;">热门系列</span>
+                                    </p>
+                                    <p>
+                                        <span>新百伦574</span>
+                                        <span>air max</span>
+                                        <span>帆布鞋</span>
+                                        <span>三叶草ZX</span>
+                                        <span>ALL star</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="chice">
+                            <div class="dh_l5">
+                                <div>
+                                    <p>
+                                        <span style="float:left;">足球</span>
+                                        <span style="float:right;">更多</span>
+                                    </p>
+                                    <p>
+                                        <span>休闲鞋</span>
+                                        <span>训练鞋</span>
+                                        <span>帆布鞋</span>
+                                        <span>板鞋</span>
+                                        <span>网球鞋</span>
+                                    </p>
+                                </div>
+                                <div>
+                                    <p>
+                                        <span style="float:left;">系列</span>
+                                        <span style="float:right;">更多</span>
+                                    </p>
+                                    <p>
+                                        <span>休闲鞋</span>
+                                        <span>训练鞋</span>
+                                        <span>健步鞋</span>
+                                        <span>帆布鞋</span>
+                                        <span>板鞋</span>
+                                    </p>
+                                </div>
+                                <div>
+                                    <p>
+                                        <span style="float:left;">搜索热词</span>
+                                    </p>
+                                    <p>
+                                        <span>17年新品</span>
+                                        <span>小白鞋</span>
+                                        <span>板鞋</span>
+                                        <span>内增高</span>
+                                        <span>复古鞋</span>
+                                    </p>
+                                </div>
+                                <div>
+                                    <p>
+                                        <span style="float:left;">热门系列</span>
+                                    </p>
+                                    <p>
+                                        <span>新百伦574</span>
+                                        <span>air max</span>
+                                        <span>帆布鞋</span>
+                                        <span>三叶草ZX</span>
+                                        <span>ALL star</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="chice">
+                            <div class="dh_l6">
+                                <div>
+                                    <p>
+                                        <span style="float:left;">包包</span>
+                                        <span style="float:right;">更多</span>
+                                    </p>
+                                    <p>
+                                        <span>休闲鞋</span>
+                                        <span>训练鞋</span>
+                                        <span>帆布鞋</span>
+                                        <span>板鞋</span>
+                                        <span>网球鞋</span>
+                                    </p>
+                                </div>
+                                <div>
+                                    <p>
+                                        <span style="float:left;">运动女鞋</span>
+                                        <span style="float:right;">更多</span>
+                                    </p>
+                                    <p>
+                                        <span>休闲鞋</span>
+                                        <span>训练鞋</span>
+                                        <span>健步鞋</span>
+                                        <span>帆布鞋</span>
+                                        <span>板鞋</span>
+                                    </p>
+                                </div>
+                                <div>
+                                    <p>
+                                        <span style="float:left;">搜索热词</span>
+                                    </p>
+                                    <p>
+                                        <span>17年新品</span>
+                                        <span>小白鞋</span>
+                                        <span>板鞋</span>
+                                        <span>内增高</span>
+                                        <span>复古鞋</span>
+                                    </p>
+                                </div>
+                                <div>
+                                    <p>
+                                        <span style="float:left;">热门系列</span>
+                                    </p>
+                                    <p>
+                                        <span>新百伦574</span>
+                                        <span>air max</span>
+                                        <span>帆布鞋</span>
+                                        <span>三叶草ZX</span>
+                                        <span>ALL star</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="chice">
+                            <div class="dh_l7">
+                                <div>
+                                    <p>
+                                        <span style="float:left;">户外</span>
+                                        <span style="float:right;">更多</span>
+                                    </p>
+                                    <p>
+                                        <span>休闲鞋</span>
+                                        <span>训练鞋</span>
+                                        <span>帆布鞋</span>
+                                        <span>板鞋</span>
+                                        <span>网球鞋</span>
+                                    </p>
+                                </div>
+                                <div>
+                                    <p>
+                                        <span style="float:left;">运动女鞋</span>
+                                        <span style="float:right;">更多</span>
+                                    </p>
+                                    <p>
+                                        <span>休闲鞋</span>
+                                        <span>训练鞋</span>
+                                        <span>健步鞋</span>
+                                        <span>帆布鞋</span>
+                                        <span>板鞋</span>
+                                    </p>
+                                </div>
+                                <div>
+                                    <p>
+                                        <span style="float:left;">搜索热词</span>
+                                    </p>
+                                    <p>
+                                        <span>17年新品</span>
+                                        <span>小白鞋</span>
+                                        <span>板鞋</span>
+                                        <span>内增高</span>
+                                        <span>复古鞋</span>
+                                    </p>
+                                </div>
+                                <div>
+                                    <p>
+                                        <span style="float:left;">热门系列</span>
+                                    </p>
+                                    <p>
+                                        <span>新百伦574</span>
+                                        <span>air max</span>
+                                        <span>帆布鞋</span>
+                                        <span>三叶草ZX</span>
+                                        <span>ALL star</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="dh_c">
+                <ul>
+                    <li style="background:#444;margin-right:1px;"><a href="#" >首页</a></li>
+                    <li class="dh_cT1"><a href="#">男子运动</a>
+                            <div class="dh_cNZ">
+                        <ul>
+                            <h4>运动鞋</h4>
+                            <li>休闲鞋</li>
+                            <li>板鞋</li>
+                            <li>跑步鞋</li>
+                            <li>帆布鞋</li>
+                            <li>拖鞋</li>
+                            <li>篮球鞋</li>
+                            <li>足球鞋</li>
+                            <li>赛车鞋</li>
+                            <li>网球鞋</li>
+                            <li>溯溪鞋</li>
+                        </ul>
+                        <ul>
+                            <h4>服装</h4>
+                            <li>短袖T恤</li>
+                            <li>短袖POLO</li>
+                            <li>运动长裤</li>
+                            <li>运动短裤</li>
+                            <li>休闲裤</li>
+                            <li>卫衣</li>
+                            <li>外套</li>
+                        </ul>
+                        <ul>
+                            <h4>品牌推荐</h4>
+                            <img src="../img/xa.png" alt="" />
+                        </ul>
+                    </div>
+                    </li>
+                    <li class="dh_cT2"><a href="#">女子运动</a>
+                            <div class="dh_cNV">
+                        <ul>
+                            <h4>运动鞋</h4>
+                            <li>休闲鞋</li>
+                            <li>板鞋</li>
+                            <li>跑步鞋</li>
+                            <li>帆布鞋</li>
+                            <li>拖鞋</li>
+                            <li>网球鞋</li>
+                            <li>健步鞋</li>
+                        </ul>
+                        <ul>
+                            <h4>服装</h4>
+                            <li>短袖T恤</li>
+                            <li>短袖POLO</li>
+                            <li>紧身裤</li>
+                            <li>胸衣</li>
+                            <li>运动长裤</li>
+                            <li>运动短裤</li>
+                            <li>运动裙</li>
+                            <li>卫衣</li>
+                            <li>外套</li>
+                        </ul>
+                        <ul>
+                            <h4>品牌推荐</h4>
+                            <img src="../img/xa.png" alt="" />
+                        </ul>
+                    </div>
+                    </li>
+                    <li class="dh_cT3"><a href="#">儿童</a>
+                            <div class="dh_cTZ">
+                        <ul>
+                            <h4>男童鞋</h4>
+                            <li>婴童(0-4岁)</li>
+                            <li>小童(4-10岁)</li>
+                            <li>大童(10-13岁)</li>
+                            <li style="height: 38px;line-height: 38px;font-size: 16px;font-weight:900;color:#000;">女童鞋</li>
+                            <li>婴童(0-4岁)</li>
+                            <li>小童(4-10岁)</li>
+                            <li>大童(10-13岁)</li>
+                        </ul>
+                        <ul>
+                            <h4>服装</h4>
+                            <li>套装 裤子</li>
+                            <li>T恤</li>
+                            <li>外套</li>
+                        </ul>
+                        <ul>
+                            <h4>品牌推荐</h4>
+                            <img src="../img/xa.png" alt="" />
+                        </ul>
+                    </div>
+                    </li>
+                    <li><a href="#">配件</a></li>
+                </ul>
+            </div>
+            <div class="dh_r ">
+                <ul>
+                    <li><a href="#" style="color:#FFCA02">七天无理由退换货</a></li>
+                    <li style="position:relative; "><a href="#" class="tp">正品授权</a></li>
+                    <li><a href="#">满339包邮</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- lbt           -->
+    <div id="lbt">
+        <!--图片列表-->
+        <div class="lbt con">
+            <div class="imglist">
+                <ul id="imglist">
+                    <li><img src="../img/jd1.jpg" alt="" /></li>
+                    <li><img src="../img/jd2.jpg" alt="" /></li>
+                    <li><img src="../img/jd3.jpg" alt="" /></li>
+                    <li><img src="../img/jd4.jpg" alt="" /></li>
+                </ul>
+            </div>
+            <!--焦点图-->
+            <div id="light">
+                <span class="active">1</span>
+                <span>2</span>
+                <span>3</span>
+                <span>4</span>
+            </div>
+        </div>
+    </div>
+    <!-- dingwei            -->
+    <!-- <div id="dw">
+        <div class="dw con">
+            <div class="dw_t">
+                <a href="#">运动/户外</a>
+                <a href="#">儿童</a>
+            </div>
+            <div class="dw_b">
+                <div class="dwl">
+                    <div class="bg1" style="border-left:1px solid black;"><a href="#"></a></div>
+                    <div class="bg2"><a href="#"></a></div>
+                    <div class="bg3"><a href="#"></a></div>
+                    <div class="bg4"><a href="#"></a></div>
+                    <div class="bg5"><a href="#"></a></div>
+                    <div class="bg6"><a href="#"></a></div>
+                    <div class="bg7"><a href="#"></a></div>
+                    <div class="bg8" style="border-left:1px solid black;"><a href="#"></a></div>
+                    <div class="bg9"><a href="#"></a></div>
+                    <div class="bg10"><a href="#"></a></div>
+                    <div class="bg11"><a href="#"></a></div>
+                    <div class="bg12"><a href="#"></a></div>
+                    <div class="bg13"><a href="#"></a></div>
+                    <div class="bg14"><a href="#"></a></div>
+                    <div class="bg15" style="border-left:1px solid black;"><a href="#"></a></div>
+                    <div class="bg16"><a href="#"></a></div>
+                    <div class="bg17"><a href="#"></a></div>
+                    <div class="bg18"><a href="#"></a></div>
+                    <div class="bg19"><a href="#"></a></div>
+                    <div class="bg20"><a href="#"></a></div>
+                    <div class="bg21"><a href="#"></a></div>
+                </div>
+                <div class="dwr">
+                    <ul class="dwr_t">
+                        <li><a href="">型男</a></li>
+                        <li><a href="">全球</a></li>
+                        <li><a href="">惊艳</a></li>
+                    </ul>
+                    <a href="#">新品动态 <img src="../img/new.jpg" alt=""></a>
+                    <div class="nb">
+                        <img src="../img/news.jpg" alt="" />
+            </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+    <!-- DT -->
+    <div id="dt">
+        <div class="dt con">
+            <img style="margin-bottom:20px" src="../img/dt.png" alt="" />
+            </div>
+        </div>
+        <!-- xz -->
+        <!-- <div id="xz">
+                <div class="xz con">
+                    <ul>
+                        <li><a class="one" href="#">
+            <img src="../img/one.jpg" alt="" />
+            <h3>金秋尚新</h3>
+            <p>满100立减20</p>
+        </a>
+                        </li>
+                        <li><a class="two" href="#">
+            <img src="../img/two.jpg" alt="" />
+            <h3>金秋尚新</h3>
+            <p>满100立减20</p>
+        </a></li>
+                        <li><a class="tre" href="#">
+             <img src="../img/tre.jpg" alt="" />
+            <h3>金秋尚新</h3>
+            <p>满100立减20</p>
+        </a></li>
+                        <li><a class="for" href="#">
+             <img src="../img/for.jpg" alt="" />
+            <h3>金秋尚新</h3>
+            <p>满100立减20</p>
+        </a></li>
+                        <li><a class="fiv" style="margin:0px;" href="#">
+            <img src="../img/fiv.jpg" alt="" />
+            <h3>金秋尚新</h3>
+            <p>满100立减20</p>
+        </a></li>
+                    </ul>
+                </div>
+            </div> -->
+        <!-- boy -->
+        <div id="boy">
+            <div class="boy con">
+                <div class="boyLeft">
+                    <ul class="fl boyList">
+                        <li id="nav1">鞋类&nbsp;&nbsp;&nbsp;&nbsp;></li>
+                        <li id="nav2">服装&nbsp;&nbsp;&nbsp;&nbsp;></li>
+                        <img src="../img/nanxie.png" alt="" />
+                    </ul>
+                        <ul class="fl">
+                            <span id="nav1-1" class="boyListRight show ">
+                                <li class="fl">
+                                    <h4>类别</h4>
+                                    <a href="#">休闲鞋</a>
+                                    <a href="#">跑步鞋</a>
+                                    <a href="#">篮球鞋</a>
+                                    <a href="#">板鞋</a>
+                                    <a href="#">足球鞋</a>
+                                    <a href="#">训练鞋</a>
+                                    <a href="#">帆布鞋</a>
+                                    <a href="#">拖鞋</a>
+                                </li>
+                                <li class="fl">
+                                    <h4>场景</h4>
+                                    <a href="#">休闲</a>
+                                    <a href="#">篮球</a>
+                                    <a href="#">跑步</a>
+                                    <a href="#">足球</a>
+                                    <a href="#">网球</a>
+                                </li>
+                            </span>
+                            <span id="nav2-1" class="boyListRight">
+                                <li class="fl">
+                                    <h4>类别</h4>
+                                    <a href="#">短袖T恤</a>
+                                    <a href="#">短袖POLO</a>
+                                    <a href="#">运动短裤</a>
+                                    <a href="#">长袖T恤</a>
+                                    <a href="#">运动长裤</a>
+                                    <a href="#">卫衣</a>
+                                    <a href="#">外套</a>
+                                </li>
+                                <li class="fl">
+                                    <h4>场景</h4>
+                                    <a href="#">休闲</a>
+                                    <a href="#">篮球</a>
+                                    <a href="#">足球</a>
+                                    <a href="#">跑步</a>
+                                    <a href="#">网球</a>
+                                    <a href="#">户外</a>
+                                </li>
+                            </span>
+                        </ul>
+                </div>
+                <div>
+                    <ul class="fl boyList">
+                        <li id="nav3">鞋类&nbsp;&nbsp;&nbsp;&nbsp;></li>
+                        <li id="nav4">服装&nbsp;&nbsp;&nbsp;&nbsp;></li>
+                        <img src="../img/nvxie.png"  alt="" />
+                        </ul>
+                        <ul class="fl">
+                            <span id="nav3-1" class="boyListRight show">
+                                <li class="fl">
+                                    <h4>类别</h4>
+                                    <a href="#">休闲鞋</a>
+                                    <a href="#">跑步鞋</a>
+                                    <a href="#">板鞋</a>
+                                    <a href="#">帆布鞋</a>
+                                    <a href="#">训练鞋</a>
+                                    <a href="#">健步鞋</a>
+                                    <a href="#">拖鞋</a>
+                                    
+                                    
+                                </li>
+                                <li class="fl">
+                                    <h4>场景</h4>
+                                    <a href="#">休闲</a>
+                                    <a href="#">跑步</a>
+                                    <a href="#">网球</a>
+                                </li>
+                            </span>
+                            <span id="nav4-1" class="boyListRight">
+                                <li class="fl">
+                                    <h4>类别</h4>
+                                    <a href="#">短袖T恤</a>
+                                    <a href="#">运动胸衣</a>
+                                    <a href="#">运动短裤</a>
+                                    <a href="#">运动长裤</a>
+                                    <a href="#">卫衣</a>
+                                    <a href="#">外套</a>
+                                    <a href="#">皮肤衣</a>
+                                </li>
+                                <li class="fl">
+                                    <h4>场景</h4>
+                                    <a href="#">休闲</a>
+                                    <a href="#">跑步</a>
+                                    <a href="#">网球</a>
+                                    <a href="#">户外</a>
+                                </li>
+                            </span>
+                        </ul>
+                </div>
+                <div class="boyRight">
+                    <ul class="fl">
+                        <img src="../img/baobao.png" alt="" />
+                        <!-- <li></li>
+                            <li></li> -->
+                    </ul>
+                    <ul class="fl">
+                        <li class="fl">
+                            <h4>类别</h4>
+                            <a href="#">双肩包</a>
+                            <a href="#">单肩包</a>
+                            <a href="#">腰包</a>
+                            <a href="#">手拎包</a>
+                            <a href="#">袜子</a>
+                        </li>
+                        <li class="fl">
+                            <h4>场景</h4>
+                            <a href="#">休闲</a>
+                            <a href="#">篮球</a>
+                            <a href="#">足球</a>
+                            <a href="#">训练</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- sport -->
+        <div id="sport">
+            <div class="sport con">
+                <div class="sp1">
+                    <img src="../img/11f.jpg" alt="" />
+                    <ul class="ul1" id="brand1">
+                        <!-- <li>
+                            <a class="a1" href="#">
+                                <span>耐克</span>
+                                <img src="../img/nike.jpg" alt="" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>阿迪达斯</span>
+                                <img src="../img/adi.jpg"alt="" />
+                            </a>
+                        </li>
+                        <li>
+                            <a class="a1" href="#">
+                                <span>三叶草</span>
+                                <img src="../img/syc.jpg" alt="" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>NEO</span>
+                                <img src="../img/neo.jpg" alt="" />
+                            </a>
+                        </li>
+                        <li><a class="a1" href="#"><span>新百伦</span><img src="../img/B.png"alt="" /></a></li>
+                        <li><a href="#"><span>匡威</span><img src="../img/KW.png" alt="" /></a></li>
+                        <li><a class="a1" href="#"><span>彪马</span><img src="../img/puma.jpg" alt="" /></a></li>
+                        <li><a href="#"><span>斯凯奇</span><img src="../img/skq1.jpg" alt="" /></a></li>
+                        <li><a class="a1" href="#"><span>万斯</span><img src="../img/vans.jpg" alt="" /></a></li>
+                        <li><a href="#" style="margin-bottom:10px;"><span>DC</span><img src="../img/dc.png" alt="" /></a></li> -->
+                    </ul>
+                    <ul class="ul2">
+                        <li><a href="#">休闲鞋</a></li>
+                        <li><a href="#">板鞋</a></li>
+                        <li><a href="#">帆布鞋</a></li>
+                        <li><a href="#">PUMA</a></li>
+                        <li><a href="#">NB</a></li>
+                        <li><a href="#">Air</a></li>
+                        <li><a href="#">开口笑</a></li>
+                        <li><a href="#">明星同款</a></li>
+                    </ul>
+                </div>
+                <div class="sp2">
+                    <a href="#">
+                    <img src="../img/1F.jpg" alt="" />
+                </a>
+                </div>
+                <div class="sp3">
+                    <ul  id="variety1">
+                        <!-- <li><a href="#">
+                    <img src="../img/l1-1.jpg" alt="" />
+                </a></li>
+                        <li><a href="#">
+                    <img src="../img/l1-2.jpg" alt="" />
+                </a></li>
+                        <li><a href="#">
+                    <img style="border-right:0px;" src="../img/l1-3.jpg" alt="" />
+                </a></li>
+                        <li><a href="#" class="a1">
+                    <img src="../img/l1-4.jpg" alt="" />
+                </a></li>
+                        <li><a href="#" class="a1">
+                    <img src="../img/l1-5.jpg" alt="" />
+                </a></li>
+                        <li><a href="#" class="a1">
+                    <img style="border-right:0px;" src="../img/l1-6.jpg" alt="" />
+                </a></li> -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="sport">
+            <div class="sport con">
+                <div class="sp1">
+                    <img src="../img/f2.png" alt="" />
+                    <ul class="ul1" id="brand2">
+                        <!-- <li >
+                            <a class="a1" href="#">
+                                <span>耐克</span>
+                                <img src="../img/nike.jpg" alt="" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>阿迪达斯</span>
+                                <img src="../img/adi.jpg"alt="" />
+                            </a>
+                        </li>
+                        <li>
+                            <a class="a1" href="#">
+                                <span>三叶草</span>
+                                <img src="../img/syc.jpg" alt="" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>NEO</span>
+                                <img src="../img/neo.jpg" alt="" />
+                            </a>
+                        </li>
+                        <li><a class="a1" href="#"><span>新百伦</span><img src="../img/B.png"alt="" /></a></li>
+                        <li><a href="#"><span>匡威</span><img src="../img/KW.png" alt="" /></a></li>
+                        <li><a class="a1" href="#"><span>彪马</span><img src="../img/puma.jpg" alt="" /></a></li>
+                        <li><a href="#"><span>斯凯奇</span><img src="../img/skq1.jpg" alt="" /></a></li>
+                        <li><a class="a1" href="#"><span>万斯</span><img src="../img/vans.jpg" alt="" /></a></li>
+                        <li><a href="#" style="margin-bottom:10px;"><span>DC</span><img src="../img/dc.png" alt="" /></a></li> -->
+                    </ul>
+                    <ul class="ul2">
+                        <li><a href="#">2018新品</a></li>
+                        <li><a href="#">短袖T恤</a></li>
+                        <li><a href="#">运动短裤</a></li>
+                        <li><a href="#">PUMA</a></li>
+                        <li><a href="#">NB</a></li>
+                        <li><a href="#">Air</a></li>
+                        <li><a href="#">开口笑</a></li>
+                        <li><a href="#">明星同款</a></li>
+                    </ul>
+                </div>
+                <div class="sp2">
+                    <a href="#">
+                    <img src="../img/2F.jpg" alt="" />
+                </a>
+                </div>
+                <div class="sp3">
+                    <ul id="variety2">
+                        <!-- <li><a href="#">
+                    <img src="../img/l2-1.jpg" alt="" />
+                </a></li>
+                        <li><a href="#">
+                    <img src="../img/l2-2-1.jpg" alt="" />
+                </a></li>
+                        <li><a href="#">
+                    <img style="border-right:0px;" src="../img/l2-3.jpg" alt="" />
+                </a></li>
+                        <li><a href="#" class="a1">
+                    <img src="../img/l2-4.jpg" alt="" />
+                </a></li>
+                        <li><a href="#" class="a1">
+                    <img src="../img/l2-5.jpg" alt="" />
+                </a></li>
+                        <li><a href="#" class="a1">
+                    <img style="border-right:0px;" src="../img/l2-6.jpg" alt="" />
+                </a></li> -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="sport">
+            <div class="sport con">
+                <div class="sp1">
+                    <img src="../img/f3.png" alt="" />
+                    <ul class="ul1" id="brand3">
+                        <!-- <li >
+                            <a class="a1" href="#">
+                                <span>耐克</span>
+                                <img src="../img/nike.jpg" alt="" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>阿迪达斯</span>
+                                <img src="../img/adi.jpg"alt="" />
+                            </a>
+                        </li>
+                        <li>
+                            <a class="a1" href="#">
+                                <span>三叶草</span>
+                                <img src="../img/syc.jpg" alt="" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>NEO</span>
+                                <img src="../img/neo.jpg" alt="" />
+                            </a>
+                        </li>
+                        <li><a class="a1" href="#"><span>新百伦</span><img src="../img/B.png"alt="" /></a></li>
+                        <li><a href="#"><span>匡威</span><img src="../img/KW.png" alt="" /></a></li>
+                        <li><a class="a1" href="#"><span>彪马</span><img src="../img/puma.jpg" alt="" /></a></li>
+                        <li><a href="#"><span>斯凯奇</span><img src="../img/skq1.jpg" alt="" /></a></li>
+                        <li><a class="a1" href="#"><span>万斯</span><img src="../img/vans.jpg" alt="" /></a></li>
+                        <li><a href="#" style="margin-bottom:10px;"><span>DC</span><img src="../img/dc.png" alt="" /></a></li> -->
+                    </ul>
+                    <ul class="ul2">
+                        <li><a href="#">2018新品</a></li>
+                        <li><a href="#">短袖T恤</a></li>
+                        <li><a href="#">运动短裤</a></li>
+                        <li><a href="#">PUMA</a></li>
+                        <li><a href="#">NB</a></li>
+                        <li><a href="#">Air</a></li>
+                        <li><a href="#">开口笑</a></li>
+                        <li><a href="#">明星同款</a></li>
+                    </ul>
+                </div>
+                <div class="sp2">
+                    <a href="#">
+                    <img src="../img/3F.jpg" alt="" />
+                </a>
+                </div>
+                <div class="sp3">
+                    <ul id="variety3">
+                        <!-- <li><a href="#">
+                    <img src="../img/l2-1.jpg" alt="" />
+                </a></li>
+                        <li><a href="#">
+                    <img src="../img/l2-2-1.jpg" alt="" />
+                </a></li>
+                        <li><a href="#">
+                    <img style="border-right:0px;" src="../img/l2-3.jpg" alt="" />
+                </a></li>
+                        <li><a href="#" class="a1">
+                    <img src="../img/l2-4.jpg" alt="" />
+                </a></li>
+                        <li><a href="#" class="a1">
+                    <img src="../img/l2-5.jpg" alt="" />
+                </a></li>
+                        <li><a href="#" class="a1">
+                    <img style="border-right:0px;" src="../img/l2-6.jpg" alt="" />
+                </a></li> -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="sport">
+            <div class="sport con">
+                <div class="sp1">
+                    <img src="../img/f4.png" alt="" />
+                    <ul class="ul1" id="brand4">
+                        <!-- <li >
+                            <a class="a1" href="#">
+                                <span>耐克</span>
+                                <img src="../img/nike.jpg" alt="" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>阿迪达斯</span>
+                                <img src="../img/adi.jpg"alt="" />
+                            </a>
+                        </li>
+                        <li>
+                            <a class="a1" href="#">
+                                <span>三叶草</span>
+                                <img src="../img/syc.jpg" alt="" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>NEO</span>
+                                <img src="../img/neo.jpg" alt="" />
+                            </a>
+                        </li>
+                        <li><a class="a1" href="#"><span>新百伦</span><img src="../img/B.png"alt="" /></a></li>
+                        <li><a href="#"><span>匡威</span><img src="../img/KW.png" alt="" /></a></li>
+                        <li><a class="a1" href="#"><span>彪马</span><img src="../img/puma.jpg" alt="" /></a></li>
+                        <li><a href="#"><span>斯凯奇</span><img src="../img/skq1.jpg" alt="" /></a></li>
+                        <li><a class="a1" href="#"><span>万斯</span><img src="../img/vans.jpg" alt="" /></a></li>
+                        <li><a href="#" style="margin-bottom:10px;"><span>DC</span><img src="../img/dc.png" alt="" /></a></li> -->
+                    </ul>
+                    <ul class="ul2">
+                        <li><a href="#">2018新品</a></li>
+                        <li><a href="#">短袖T恤</a></li>
+                        <li><a href="#">运动短裤</a></li>
+                        <li><a href="#">PUMA</a></li>
+                        <li><a href="#">NB</a></li>
+                        <li><a href="#">Air</a></li>
+                        <li><a href="#">开口笑</a></li>
+                        <li><a href="#">明星同款</a></li>
+                    </ul>
+                </div>
+                <div class="sp2">
+                    <a href="#">
+                    <img src="../img/4F.jpg" alt="" />
+                </a>
+                </div>
+                <div class="sp3">
+                    <ul id="variety4">
+                        <!-- <li><a href="#">
+                    <img src="../img/l2-1.jpg" alt="" />
+                </a></li>
+                        <li><a href="#">
+                    <img src="../img/l2-2-1.jpg" alt="" />
+                </a></li>
+                        <li><a href="#">
+                    <img style="border-right:0px;" src="../img/l2-3.jpg" alt="" />
+                </a></li>
+                        <li><a href="#" class="a1">
+                    <img src="../img/l2-4.jpg" alt="" />
+                </a></li>
+                        <li><a href="#" class="a1">
+                    <img src="../img/l2-5.jpg" alt="" />
+                </a></li>
+                        <li><a href="#" class="a1">
+                    <img style="border-right:0px;" src="../img/l2-6.jpg" alt="" />
+                </a></li> -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="sport">
+            <div class="sport con">
+                <div class="sp1">
+                    <img src="../img/f5.png" alt="" />
+                    <ul class="ul1" id="brand5">
+                        <!-- <li >
+                            <a class="a1" href="#">
+                                <span>耐克</span>
+                                <img src="../img/nike.jpg" alt="" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>阿迪达斯</span>
+                                <img src="../img/adi.jpg"alt="" />
+                            </a>
+                        </li>
+                        <li>
+                            <a class="a1" href="#">
+                                <span>三叶草</span>
+                                <img src="../img/syc.jpg" alt="" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>NEO</span>
+                                <img src="../img/neo.jpg" alt="" />
+                            </a>
+                        </li>
+                        <li><a class="a1" href="#"><span>新百伦</span><img src="../img/B.png"alt="" /></a></li>
+                        <li><a href="#"><span>匡威</span><img src="../img/KW.png" alt="" /></a></li>
+                        <li><a class="a1" href="#"><span>彪马</span><img src="../img/puma.jpg" alt="" /></a></li>
+                        <li><a href="#"><span>斯凯奇</span><img src="../img/skq1.jpg" alt="" /></a></li>
+                        <li><a class="a1" href="#"><span>万斯</span><img src="../img/vans.jpg" alt="" /></a></li>
+                        <li><a href="#" style="margin-bottom:10px;"><span>DC</span><img src="../img/dc.png" alt="" /></a></li> -->
+                    </ul>
+                    <ul class="ul2">
+                        <li><a href="#">2018新品</a></li>
+                        <li><a href="#">短袖T恤</a></li>
+                        <li><a href="#">运动短裤</a></li>
+                        <li><a href="#">PUMA</a></li>
+                        <li><a href="#">NB</a></li>
+                        <li><a href="#">Air</a></li>
+                        <li><a href="#">开口笑</a></li>
+                        <li><a href="#">明星同款</a></li>
+                    </ul>
+                </div>
+                <div class="sp2">
+                    <a href="#">
+                    <img src="../img/5F.jpg" alt="" />
+                </a>
+                </div>
+                <div class="sp3">
+                    <ul id="variety5">
+                        <!-- <li><a href="#">
+                    <img src="../img/l2-1.jpg" alt="" />
+                </a></li>
+                        <li><a href="#">
+                    <img src="../img/l2-2-1.jpg" alt="" />
+                </a></li>
+                        <li><a href="#">
+                    <img style="border-right:0px;" src="../img/l2-3.jpg" alt="" />
+                </a></li>
+                        <li><a href="#" class="a1">
+                    <img src="../img/l2-4.jpg" alt="" />
+                </a></li>
+                        <li><a href="#" class="a1">
+                    <img src="../img/l2-5.jpg" alt="" />
+                </a></li>
+                        <li><a href="#" class="a1">
+                    <img style="border-right:0px;" src="../img/l2-6.jpg" alt="" />
+                </a></li> -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- bottom -->
+        <div class="bottom con">
+            <div class="bottom_l">
+                <h2>客服热线(免长途费)</h2>
+                <h3>400 116 2228</h3>
+                <p>客服时间:&nbsp;9:00-24:00</p>
+                <p class="p2">周末/假日:&nbsp;10:00-24:00</p>
+                <img src="../img/mewm.jpg"  alt="" />
+                <img src="../img/gewm.jpg"  alt="" />
+        </div>
+                <div class="bottom_r">
+                    <div class="bott1">
+                        <div class="bot">
+                            <h2>正品保障<h5>专业精选 正品护航</h5></h2>
+                        </div>
+                        <p>支付方式</p>
+                        <ul>
+                            <li>
+                                <a href="#">在线支付</a>
+                                <a href="#">货到付款</a>
+                                <a href="#">发票说明</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="bott2">
+                        <div class="bot">
+                            <h2>正品保障<h5>专业精选 正品护航</h5></h2>
+                        </div>
+                        <p>支付方式</p>
+                        <ul>
+                            <li>
+                                <a href="#">在线支付</a>
+                                <a href="#">货到付款</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="bott3">
+                        <div class="bot">
+                            <h2>正品保障<h5>专业精选 正品护航</h5></h2>
+                        </div>
+                        <p>支付方式</p>
+                        <ul>
+                            <li>
+                                <a href="#">在线支付</a>
+                                <a href="#">货到付款</a>
+                                <a href="#">发票说明</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="bott4">
+                        <div class="bot">
+                            <h2>正品保障<h5>专业精选 正品护航</h5></h2>
+                        </div>
+                        <p>支付方式</p>
+                        <ul>
+                            <li>
+                                <a href="#">在线支付</a>
+                                <a href="#">货到付款</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
