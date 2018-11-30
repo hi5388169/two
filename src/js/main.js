@@ -2,7 +2,7 @@
 * @Author: Marte
 * @Date:   2018-11-30 15:46:51
 * @Last Modified by:   Marte
-* @Last Modified time: 2018-11-30 16:06:26
+* @Last Modified time: 2018-11-30 19:26:27
 */
 requirejs.config({
     paths : {
@@ -22,7 +22,7 @@ requirejs.config({
 });
 
 //main.js-----
-requirejs(['jquery','common','reg'],function($){
+requirejs(['jquery','common','reg'],function(re){
     //这里的代码等common，moduleA，moduleB，moduleC模块都加载完成后执行
     //但不保证以上模块的加载顺序
     

@@ -6,6 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
     var digit = document.getElementById('digit');
     var auth = document.getElementById('auth');
     var info = document.getElementById('info');
+    var goreg = document.getElementById('goreg');
     function security() {
         var html = '';
         var str = '0123456789qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM'
@@ -21,7 +22,10 @@ document.addEventListener('DOMContentLoaded', function() {
     code.onclick = function() {
         security();
     };
-
+    goreg.onclick=function(){
+        console.log(123);
+        location.href="reg.html";
+    };
     login.onclick = function() {
         var name = username.value.trim();
         var psw = password.value.trim();
